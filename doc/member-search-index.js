@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"<Unnamed>","c":"Persistencia","l":"Persistencia()"},{"p":"<Unnamed>","c":"Persistencia","l":"recuperarCentral()"},{"p":"<Unnamed>","c":"Persistencia","l":"salvarCentral(CentralDeInformacoes)"}]

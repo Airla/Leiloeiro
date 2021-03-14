@@ -1,0 +1,49 @@
+<CentralDeInformacoes>
+  <usuariosCadastrados>
+    <Usuario>
+      <nome>Pedro</nome>
+      <sobrenome>Henrique</sobrenome>
+      <email>pedro@gmail.com</email>
+      <senha>12345678</senha>
+      <confimarSenha>12345678</confimarSenha>
+      <sexo>M</sexo>
+      <leiloes>
+        <Leilao>
+          <descricao>lll</descricao>
+          <valor>9.0</valor>
+          <prazo>2018-12-22 23:30:00.0 UTC</prazo>
+          <titulo>i</titulo>
+          <lance>0.0</lance>
+          <emailVendedor>pedro@gmail.com</emailVendedor>
+          <nomeVendedor>Pedro</nomeVendedor>
+          <nomeComprador>Airla Cordeiro</nomeComprador>
+          <comprador>a@gmail.com</comprador>
+          <vendido>true</vendido>
+          <dataDaCompra>2018-11-20 19:54:34.535 UTC</dataDaCompra>
+          <valorDaCompra>9.0</valorDaCompra>
+          <adicionadoNosLeiloesGanhos>true</adicionadoNosLeiloesGanhos>
+          <historicoLancesBemSucedidos/>
+          <leiloes/>
+        </Leilao>
+      </leiloes>
+      <leiloesGanhos/>
+    </Usuario>
+    <Usuario>
+      <nome>Airla</nome>
+      <sobrenome>Cordeiro</sobrenome>
+      <email>a@gmail.com</email>
+      <senha>12345678</senha>
+      <confimarSenha>12345678</confimarSenha>
+      <sexo>F</sexo>
+      <leiloes/>
+      <leiloesGanhos>
+        <LeilaoGanho>
+          <titulo>i</titulo>
+          <dataDaCompra reference="../../../../Usuario/leiloes/Leilao/dataDaCompra"/>
+          <valorDaCompra>9.0</valorDaCompra>
+          <emailDoVendedor>pedro@gmail.com</emailDoVendedor>
+        </LeilaoGanho>
+      </leiloesGanhos>
+    </Usuario>
+  </usuariosCadastrados>
+</CentralDeInformacoes>
